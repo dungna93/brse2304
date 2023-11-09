@@ -33,6 +33,14 @@ public class Lesson2 {
         // Gọi đến hàm xinChao()
         xinChao(); // sẽ in ra dòng chữ: Xin chào: Nguyễn Anh Dũng. Vì trong hàm này chúng ta có câu lệnh
                     // System.out.println(........)
+
+        // gọi hàm tongHaiSo với 3 tham số truyền vào
+        int ketQua = tongHaiSo(3, 4, 5);
+        System.out.println(ketQua);
+
+        // gọi hàm tongHaiSo với 2 tham số truyền vào và return về kiểu float
+        float kqFloat = tongHaiSo(2.2f, 5.5f);
+        System.out.println(kqFloat);
     }
 
     // I. Hàm không có đối số truyền vào nhưng có giá trị trả về
@@ -67,5 +75,14 @@ public class Lesson2 {
         // không sử dụng từ khóa return để trả về giá trị nữa
     }
 
+    // IV overload hàm
+    // ví dụ hàm tongHaiSo
+    public static int tongHaiSo(int a, int b, int c) {
+        return a + b + c;
+    }
+
+    public static float tongHaiSo(float a, float b) {
+        return a + b;
+    }
 
 }

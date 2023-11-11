@@ -51,8 +51,9 @@ public class Ex2 {
 
         // Toán tử điều kiện
         // [Kiểu dữ liệu khai báo] [tên biến] = [biểu thức logic] ? [kết quả của biểu thức đúng] : [Kết quả của biểu thức sai]
-                 String            kiemTra    = (x > 10)           ? "x lớn hơn 10"              : "x nhỏ hơn 10";
+                 //String            kiemTra    = (x > 10)           ? "x lớn hơn 10"              : "x nhỏ hơn 10";
         // giải thích câu lệnh phía trên
+        String kiemTra = "";
         if (x > 10) {
             kiemTra = "x lớn hơn 10";
         } else {

@@ -50,7 +50,10 @@ public class SwitchCase {
         }
 
         // Switch case với String
-        String ten = "ABCopo";
+        String ten = "ABC";
+
+        System.out.println("bắt đầu thúc việc kiểm tra tên");
+
         switch (ten) {
             case "XYZ":
                 System.out.println("Tên là XYZ");
@@ -63,5 +66,9 @@ public class SwitchCase {
                 break;
         }
         System.out.println("kết thúc việc kiểm tra tên");
+
+
+
+
     }
 }

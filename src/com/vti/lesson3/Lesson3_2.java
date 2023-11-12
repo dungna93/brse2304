@@ -15,5 +15,7 @@ public class Lesson3_2 {
             System.out.println(count);
             System.out.println("in ra 10 lần");
         }
+
+        }
     }
 }

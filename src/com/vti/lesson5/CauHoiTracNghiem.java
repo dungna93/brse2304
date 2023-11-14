@@ -34,16 +34,12 @@ public class CauHoiTracNghiem {
 //                System.out.println("Vui lòng lựa chọn đáp án!");
 //            }
 
+
+            // if else kết hợp toán tử logic OR (||)
             if ("A".equalsIgnoreCase(phuongAnChon)) {
                 System.out.println("Bạn trả lời đúng");
                 break;
-            } else if ("B".equalsIgnoreCase(phuongAnChon)) {
-                System.out.println("Bạn trả lời sai");
-                break;
-            } else if ("C".equalsIgnoreCase(phuongAnChon)) {
-                System.out.println("Bạn trả lời sai");
-                break;
-            } else if ("D".equalsIgnoreCase(phuongAnChon)) {
+            } else if ("B".equalsIgnoreCase(phuongAnChon) || "C".equalsIgnoreCase(phuongAnChon) || "D".equalsIgnoreCase(phuongAnChon)) {
                 System.out.println("Bạn trả lời sai");
                 break;
             } else {

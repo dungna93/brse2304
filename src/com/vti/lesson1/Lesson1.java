@@ -92,24 +92,28 @@ public class Lesson1 {
         if ( (x==1) && (y==1)) {  // if (true && true)
             System.out.println("1. Giá trị của x và y đều bằng 1");
         }
+        System.out.println("true && true: " + ((x==1) && (y==1)));
 
         x = 2;
         y = 1;
         if ( (x==1) && (y==1)) {  // if (false && true)
             System.out.println("2. biểu thức false và true"); // dòng này sẽ không được in ra
         }
+        System.out.println("false && true: " + ((x==1) && (y==1)));
 
         x = 1;
         y = 2;
         if ( (x==1) && (y==1)) {  // if (true && false)
             System.out.println("3. biểu thức false và true"); // dòng này sẽ không được in ra
         }
+        System.out.println("true && false: " + ((x==1) && (y==1)));
 
         x = 2;
         y = 2;
         if ( (x==1) && (y==1)) {  // if (false && false)
             System.out.println("4. biểu thức false và true"); // dòng này sẽ không được in ra
         }
+        System.out.println("false && false: " + ((x==1) && (y==1)));
 
         // Kết luận: toán tử && chỉ trả ra giá trị true khi cả 2 biểu thức đều là biểu thức đúng (true).
         // Chỉ cần 1 biểu thức sai thì giá trị của toán tử sẽ là false.
@@ -118,21 +122,25 @@ public class Lesson1 {
 
         x = 1;
         y = 1;
-        if ( (x==1) || (y==1)) {  // if (true && true)
+        if ( (x==1) || (y==1)) {  // if (true || true)
             System.out.println("1. Giá trị của x hoặc y bằng 1");
         }
+        System.out.println("true || true: " + ((x==1) || (y==1)));
 
-        if ( (x==2) || (y==1)) {  // if (false && true)
+        if ( (x==2) || (y==1)) {  // if (false || true)
             System.out.println("2. Giá trị của x = 2 hoặc y = 1");
         }
+        System.out.println("false || true: " + ((x==2) || (y==1)));
 
-        if ( (x==1) || (y==2)) {  // if (true && false)
+        if ( (x==1) || (y==2)) {  // if (true || false)
             System.out.println("3. Giá trị của x = 1 hoặc y = 2");
         }
+        System.out.println("true || false: " + ((x==1) || (y==2)));
 
-        if ( (x==2) || (y==2)) {  // if (false && false)
+        if ( (x==2) || (y==2)) {  // if (false || false)
             System.out.println("4. Giá trị của x = 1 hoặc y = 2"); // không in ra dòng này
         }
+        System.out.println("false || false: " + ((x==2) || (y==2)));
         // Kết luận: Đối với toán tử OR
         // Sẽ trả ra giá trị true nếu ít nhất 1 trong 2 biểu thức là true.
         // Trả ra giá trị false khi cả 2 biểu thức đồng thời đều là false.
@@ -142,9 +150,11 @@ public class Lesson1 {
         if ( !(x != 2) ) { // phủ định của true -> false:  !true
             System.out.println("1. in ra dòng này không");
         }
+        System.out.println(!(x != 2));
 
         if ( !(x == 2) ) { // phủ định của false -> true: !false
             System.out.println("2. in ra dòng này không");
         }
+        System.out.println(!(x == 2));
     }
 }

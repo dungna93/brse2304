@@ -6,12 +6,12 @@ package com.vti.lesson6;
  */
 public class Person {
 
-    // Biến instance (đại diện cho thuộc tính của đối tượng)
+    //I. Biến instance (đại diện cho thuộc tính của đối tượng)
     String name;
     int age;
     String address;
 
-    // Hàm instance (hàm đối tượng) không có từ khóa static. Hành vi - phương thức (riêng) của đối tượng
+    //II. Hàm instance (hàm đối tượng) không có từ khóa static. Hành vi - phương thức (riêng) của đối tượng
     // Muốn sử dụng các hàm này phải sử dụng từ khóa new để tạo đối tượng
 
     // cho bên thứ 3 muốn sử dụng
@@ -54,7 +54,7 @@ public class Person {
         this.address = address;
     }
 
-    // contructor và contructor mặc định
+    //III. contructor và contructor mặc định
     // tương tự như hàm nhưng được sử dụng để khởi tạo giá trị cho các biến instance
     public Person() {
     }
@@ -101,6 +101,6 @@ public class Person {
         p4.setAddress("Japan");
         System.out.println(p4.getAddress());
         System.out.println(p4.getName() + " - " + "tuoi: " + p4.getAge() + " - " + p4.getAddress());
-        
+
     }
 }

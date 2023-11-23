@@ -49,6 +49,7 @@ public class TestOverride {
         p2.setName("Nguyễn Anh Dũng");
         p2.setAge(31);
 
+
         DiaChi diaChiP2 = new DiaChi();
         diaChiP2.setNumber(21);
         diaChiP2.setStreetName("Hùng Vương Street");

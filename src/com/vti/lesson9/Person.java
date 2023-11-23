@@ -7,7 +7,6 @@ package com.vti.lesson9;
 public class Person {
     private String name;
     private int age;
-
     private DiaChi diaChi; // Has-a: Mỗi 1 person có 1 địa chỉ
 
     public Person() {

@@ -8,6 +8,8 @@ public class Person {
     private String name;
     private int age;
 
+    private DiaChi diaChi; // Has-a: Mỗi 1 person có 1 địa chỉ
+
     public Person() {
     }
 
@@ -35,5 +37,13 @@ public class Person {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public DiaChi getDiaChi() {
+        return diaChi;
+    }
+
+    public void setDiaChi(DiaChi diaChi) {
+        this.diaChi = diaChi;
     }
 }
